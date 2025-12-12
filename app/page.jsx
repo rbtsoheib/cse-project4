@@ -11,13 +11,13 @@ export default function Home() {
         onMouseLeave={() => {
           setOnHover(false);
         }}
-        className={` w-64 h-40 flex items-center justify-center rounded-xl text-white 
+        className={` w-64 h-40 flex items-center justify-center rounded-xl text-black bg-blue-500 
           
             
             ${
               OnHover
                 ? "bg-red-700 scale-110 text-black transiton-transform duration-300 ease-in-out rotate-90 translate-x-14"
-                : " bg-white-200 text-black transition-transform duration-300 ease-in-out "
+                : " bg-black-200 text-red transition-transform duration-300 ease-in-out "
             } 
 
           `}
