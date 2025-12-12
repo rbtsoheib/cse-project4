@@ -11,12 +11,12 @@ export default function Home() {
         onMouseEnter={() => {
           setOnHover(false);
         }}
-        className={` w-64 h-40 flex items-center justify-center rounded-xl 
+        className={` w-64 h-40 flex items-center justify-center rounded-xl text-white 
           
             
             ${
               OnHover
-                ? "bg-blue-700 scale-110 text-white transiton-transform duration-300 ease-in-out "
+                ? "bg-red-700 scale-110 text-black transiton-transform duration-300 ease-in-out "
                 : " bg-white-200 text-black transition-transform duration-300 ease-in-out "
             } 
 
